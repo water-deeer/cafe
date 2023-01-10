@@ -13,3 +13,11 @@ spring:
       hibernate:
         format_sql: true
 
+server:
+  ssl:
+    keyAlias: spring
+    key-store-password: '123456'
+    key-store: keystore.p12
+    keyStoreType: PKCS12
+  port: 8443
+
